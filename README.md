@@ -1,5 +1,8 @@
 # Urraan Online Training - Semantic HTML Layout
 
+## 🔗 Live Demo
+Visit the live site: [https://muhammad-abdurrehman-khan.github.io/Uraan-Task-01/](https://muhammad-abdurrehman-khan.github.io/Uraan-Task-01/)
+
 ## Project Overview
 This repository contains the solution for the UI layout assignment provided during the Urraan Online Training program. The objective of this task was to recreate a specific layout design using strict HTML5 structural guidelines. 
 
@@ -14,8 +17,10 @@ This repository contains the solution for the UI layout assignment provided duri
 - CSS3 (Flexbox)
 
 ## How to Run
-1. Open the project folder in **VS Code**.
-2. Open `index.html` in your preferred web browser.
+- **Live Demo:** [Open in Browser](https://muhammad-abdurrehman-khan.github.io/Uraan-Task-01/)
+- **Local:**
+  1. Open the project folder in **VS Code**.
+  2. Open `index.html` in your preferred web browser.
 
 ## Urraan Core Values
 This task was completed while upholding the fundamental principles of the Urraan program:
