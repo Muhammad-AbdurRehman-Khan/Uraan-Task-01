@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urraan Layout Assignment</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #ffffff;
+        }
+
+        main {
+            border: 2px solid #000000;
+            padding: 12px;
+            width: 700px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        header {
+            background-color: #fd3333;
+            height: 50px;
+            border: 1px solid #000000;
+        }
+
+        nav {
+            background-color: #1ccbed;
+            height: 55px;
+            border: 1px solid #000000;
+        }
+
+        section.middle-wrapper {
+            display: flex;
+            gap: 12px;
+            height: 220px;
+        }
+
+        section.left-column {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            flex: 1.5;
+        }
+
+        article.box-1 {
+            background-color: #fcb943;
+            flex: 1;
+            border: 1px solid #000000;
+        }
+
+        article.box-2 {
+            background-color: #fc8845;
+            flex: 1;
+            border: 1px solid #000000;
+        }
+
+        aside {
+            background-color: #fa5fd3;
+            flex: 1;
+            border: 1px solid #000000;
+        }
+
+        footer {
+            background-color: #666666;
+            height: 60px;
+            border: 1px solid #000000;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <header></header>
+        <nav></nav>
+        
+        <section class="middle-wrapper">
+            <section class="left-column">
+                <article class="box-1"></article>
+                <article class="box-2"></article>
+            </section>
+            
+            <aside></aside>
+        </section>
+        
+        <footer></footer>
+    </main>
+
+</body>
+</html>
